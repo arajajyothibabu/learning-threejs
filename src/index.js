@@ -2,7 +2,7 @@
  * Created by jyothi on 16/9/17.
  */
 import * as THREE from 'three';
-import { line, sphere } from './learning';
+import { line, sphere, text } from './learning';
 
 // Get the DOM element to attach to
 const container = document.querySelector('#container');
@@ -53,6 +53,9 @@ scene.add(sphere);
 
 //add line to scene
 scene.add(line);
+
+//add texture to scene
+scene.add(text);
 
 //rendering to screen
 renderer.render(scene, camera);

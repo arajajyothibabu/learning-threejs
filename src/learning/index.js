@@ -3,5 +3,6 @@
  */
 import line from './line';
 import sphere from './sphere';
+import text from './text';
 
-export { line, sphere };
+export { line, sphere, text };
