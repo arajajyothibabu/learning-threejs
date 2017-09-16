@@ -1,0 +1,34 @@
+{
+  "name": "learning-threejs",
+  "version": "1.0.0",
+  "description": "Just for learning ThreeJs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arajajyothibabu/learning-threejs.git"
+  },
+  "keywords": [
+    "javascript",
+    "threejs"
+  ],
+  "author": "Jyothi Babu Araja <arajajyothibabu@gmail.com> (https://arajajyothibabu.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arajajyothibabu/learning-threejs/issues"
+  },
+  "homepage": "https://github.com/arajajyothibabu/learning-threejs#readme",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-es2015": "6.24.1",
+    "webpack": "3.6.0",
+    "webpack-dev-server": "2.8.2"
+  },
+  "dependencies": {
+    "three": "0.87.1"
+  }
+}
